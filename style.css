@@ -17,14 +17,20 @@ h1
   background-color:lightpink;
   border:solid 2px red;
   text-align:center;
+  font-family: "Nanum Gothic Coding", monospace;
   /* width:90vw;padding:20px */
   /*margin:40px*/
+}
+
+h3
+{
+  
 }
 
 .content
 {
   display:inline-block;
-  width:30%; /*부모요소넓이의 30퍼센트 설정*/
+  width:29%; /*부모요소넓이의 30퍼센트 설정*/
   height:100%;
   border:solid 1px black;
   margin:10px;
@@ -35,3 +41,52 @@ h3
 {
   color:blue;
 }
+
+#m2
+{
+  color:blue;
+}
+
+article div::before
+{
+  content: "{영화소개}";
+  font-style: italic;
+  color: darkgreen;
+}
+
+a
+{
+  text-decoration:none;
+  color:darkred;
+}
+
+a:visited
+{
+  color:orange;
+}
+
+a:hover
+{
+  background-color:blue;
+  color:white;
+}
+
+a:action
+{
+  background-color:darkred;
+  color:white;
+}
+
+article div
+{
+  background-color:lightgray;
+  padding:15px 5px 10px 5px;
+  margin-bottom:20px;
+}
+
+article:nth-child(2)
+{
+  background-color:lightgreen;
+}
+
+
